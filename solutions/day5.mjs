@@ -1,4 +1,5 @@
 export function airplaneSeats(input) {
+    let takenSeats = [];
     const maxRows = 128;
     const maxCols = 8;
     let maxSeatID = 0;
@@ -26,9 +27,17 @@ export function airplaneSeats(input) {
             }
         }
         let seatId = (rowStartIndex * maxCols) + colStartIndex;
+        takenSeats.push(seatId);
+
         maxSeatID = seatId > maxSeatID ? seatId : maxSeatID;
-        console.log(`row: ${rowStartIndex} col: ${colStartIndex} seatId: ${seatId}`);
+        //console.log(`row: ${rowStartIndex} col: ${colStartIndex} seat ID: ${seatId}`);
     }
 
-    console.log(maxSeatID);
+    for (let seat = 1; seat < (maxRows * maxCols) - 1; seat++) {
+        if(takenSeats.indexOf(seat) == -1 && takenSeats.indexOf(seat - 1) > -1 && takenSeats.indexOf(seat + 1) > -1 ) {
+            console.log(`Your seat ID: ${seat}`);
+        }
+    }
+
+    console.log(`Max seat ID: ${maxSeatID}`);
 }
