@@ -1,5 +1,5 @@
-import { airplaneSeats } from './solutions/day5.mjs';
-import { input, testInput } from './inputs/input5.mjs';
+import { customCustoms } from './solutions/day6.mjs';
+import { input, testInput } from './inputs/input6.mjs';
 
 // #1
 // Find2020(input);
@@ -14,4 +14,7 @@ import { input, testInput } from './inputs/input5.mjs';
 //passportValidation(input);
 
 // #5
-airplaneSeats(input);
+// airplaneSeats(input);
+
+//#6 
+customCustoms(input);
