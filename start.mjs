@@ -1,5 +1,5 @@
-import { customCustoms } from './solutions/day6.mjs';
-import { input, testInput } from './inputs/input6.mjs';
+import { bags } from './solutions/day7.mjs';
+import { input, testInput } from './inputs/input7.mjs';
 
 // #1
 // Find2020(input);
@@ -17,4 +17,7 @@ import { input, testInput } from './inputs/input6.mjs';
 // airplaneSeats(input);
 
 //#6 
-customCustoms(input);
+// customCustoms(input);
+
+// #7
+bags(input);
