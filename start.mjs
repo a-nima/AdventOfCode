@@ -1,5 +1,5 @@
-import { bags } from './solutions/day7.mjs';
-import { input, testInput } from './inputs/input7.mjs';
+import { handheldHalting } from './solutions/day8.mjs';
+import { input, testInput } from './inputs/input8.mjs';
 
 // #1
 // Find2020(input);
@@ -20,4 +20,7 @@ import { input, testInput } from './inputs/input7.mjs';
 // customCustoms(input);
 
 // #7
-bags(input);
+// bags(input);
+
+// #8
+handheldHalting(input);
