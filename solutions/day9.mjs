@@ -23,7 +23,7 @@ export function encodingError(input) {
 function isValid(number, values) {
     for (let i = 0; i < values.length; i++) {
         const firstNum = values[i];
-        for (let j = i; j < values.length; j++) {
+        for (let j = i + 1; j < values.length; j++) {
             const secondNum = values[j]
             if (firstNum + secondNum == number) {
                 return true;
