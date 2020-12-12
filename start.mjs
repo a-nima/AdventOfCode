@@ -1,5 +1,5 @@
-import { handheldHalting } from './solutions/day8.mjs';
-import { input, testInput } from './inputs/input8.mjs';
+import { encodingError } from './solutions/day9.mjs';
+import { input, testInput } from './inputs/input9.mjs';
 
 // #1
 // Find2020(input);
@@ -23,4 +23,7 @@ import { input, testInput } from './inputs/input8.mjs';
 // bags(input);
 
 // #8
-handheldHalting(input);
+// handheldHalting(input);
+
+// #9
+encodingError(input);
