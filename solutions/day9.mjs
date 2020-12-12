@@ -42,6 +42,8 @@ function findConcurrentNumbers(numberIndex, number, values) {
             sum += nextNum;
             if (sum == number) {
                 return values.slice(startIndex, endIndex + 1);
+            } else if(sum > number) {
+                break;
             }
         };
     }
