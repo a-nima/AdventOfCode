@@ -1,6 +1,6 @@
-import { adapterArray } from './solutions/day10.mjs';
-import { input, testInput2 } from './inputs/input10.mjs';
-import { testInput } from './inputs/input10.mjs';
+import { seatingSystem } from './solutions/day11.mjs';
+import { input, testInput } from './inputs/input11.mjs';
+import { testInput2 } from './inputs/input11.mjs';
 
 // #1
 // Find2020(input);
@@ -30,4 +30,7 @@ import { testInput } from './inputs/input10.mjs';
 // encodingError(input); 
 
 // #10
-adapterArray(input);
+//adapterArray(input);
+
+// #11
+seatingSystem(input);
