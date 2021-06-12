@@ -1,6 +1,6 @@
-import { seatingSystem } from './solutions/day11.mjs';
-import { input, testInput } from './inputs/input11.mjs';
-import { testInput2 } from './inputs/input11.mjs';
+import { input, testInput } from './inputs/input12.mjs';
+import { rainRiskMath } from './solutions/day12.mjs';
+import { rainRisk } from './solutions/day12.mjs';
 
 // #1
 // Find2020(input);
@@ -33,4 +33,7 @@ import { testInput2 } from './inputs/input11.mjs';
 //adapterArray(input);
 
 // #11
-seatingSystem(input);
+// seatingSystem(input);
+
+// #12
+rainRiskMath(input);
