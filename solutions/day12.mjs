@@ -1,4 +1,4 @@
-export function rainRiskMath(input) {
+export function rainRisk(input) {
     let inputLines = input.split(/\n/);
     var wp = [10, 1]; // x, y = WE / NS
     var ship = [0, 0]; // x, y = WE / NS
