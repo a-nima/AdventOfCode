@@ -1,0 +1,1 @@
+import { input } from './inputs/input1.mjs';
